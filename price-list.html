@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Chatbot Pricing</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #fafafa;
+    position: relative;
+    overflow-x: hidden;
+  }
+  /* Watermarks container on top with z-index 10 */
+  .watermark-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    user-select: none;
+    z-index: 10;
+  }
+  .watermark {
+    position: absolute;
+    font-size: 90px;
+    color: rgba(44, 62, 80, 0.12); /* opacity changed here */
+    transform: rotate(-30deg);
+    white-space: nowrap;
+  }
+  .wm1 { top: 20%; left: 10%; }
+  .wm2 { top: 40%; left: 30%; }
+  .wm3 { top: 60%; left: 50%; }
+  .wm4 { top: 80%; left: 70%; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  thead {
+    background-color: #2c3e50; /* dark slate blue */
+    color: #ecf0f1; /* light gray */
+  }
+  th, td {
+    border: 1px solid #bdc3c7; /* soft gray */
+    padding: 14px 20px;
+    text-align: left;
+  }
+  tbody tr {
+    background-color: #ffffff;
+  }
+  tbody tr:hover {
+    background-color: #d6eaf8;
+    cursor: pointer;
+  }
+  h2 {
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 5; /* above watermark */
+  }
+</style>
+</head>
+<body>
+
+<div class="watermark-container">
+  <div class="watermark wm1">hyum.ai</div>
+  <div class="watermark wm2">hyum.ai</div>
+  <div class="watermark wm3">hyum.ai</div>
+  <div class="watermark wm4">hyum.ai</div>
+</div>
+
+<h2>AI Chatbot Configuration Price List</h2>
+
+<table>
+<thead>
+  <tr>
+    <th>Configuration Type</th>
+    <th>Description</th>
+    <th>Price (USD)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Basic Persona/Prompt</td>
+    <td>Simple personality creation (single prompt, initial greeting)</td>
+    <td>$30 – $50</td>
+  </tr>
+  <tr>
+    <td>Enhanced Persona</td>
+    <td>Detailed prompt, multiple traits, a few sample dialogue lines</td>
+    <td>$50 – $100</td>
+  </tr>
+  <tr>
+    <td>Extended Dialogue Library</td>
+    <td>Persona plus 10-20 example dialogue lines, tailored for style and mood</td>
+    <td>$100 – $180</td>
+  </tr>
+  <tr>
+    <td>NSFW/Specialized Roleplay Persona</td>
+    <td>Custom adult roleplay configuration, explicit tone and scenario prompts</td>
+    <td>$80 – $180</td>
+  </tr>
+  <tr>
+    <td>Dynamic/Responsive Persona</td>
+    <td>Persona that adapts tone/mood with dialogue triggers, advanced scripting</td>
+    <td>$180 – $350</td>
+  </tr>
+  <tr>
+    <td>Ongoing Support/Revision Package</td>
+    <td>Initial setup plus 2-3 rounds of feedback, revisions, and prompt optimization</td>
+    <td>+$40 – $100 per package</td>
+  </tr>
+</tbody>
+</table>
+
+</body>
+</html>
